@@ -27,6 +27,8 @@ public enum TwitterAdObjective {
 
     VIDEO_VIEWS("video_views", MetricGroup.ENGAGEMENT, MetricGroup.BILLING, MetricGroup.VIDEO),
 
+	WEBSITE_CONVERSIONS("website_conversions", MetricGroup.WEB_CONVERSION),
+	
     WEBSITE_CLICKS("website_clicks", MetricGroup.ENGAGEMENT, MetricGroup.BILLING, MetricGroup.WEB_CONVERSION, MetricGroup.MEDIA);
 
     private MetricGroup[] metricGroups;
